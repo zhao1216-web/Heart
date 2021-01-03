@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Heart:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Heart</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="javaweb-demo.war">
+      <element id="artifact" artifact-name="Heart:war exploded" />
+    </root>
+  </artifact>
+</component>
